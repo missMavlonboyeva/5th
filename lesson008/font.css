@@ -1,0 +1,69 @@
+@font-face {
+    font-family: odina;
+    src: url("./Dancing_Script/DancingScript-VariableFont_wght.ttf");
+}
+@font-face {
+    font-family:oyxon ;
+    src: url(./RubikPuddles-Regular.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+h2{
+    color: red;
+    font-family: oyxon;
+    text-align: center;
+    font-size: 2rem;
+}
+#text{
+    color:blueviolet;
+}
+.text{
+    color: red;
+}
+body .text{
+    color: blue;
+}
+html body .text{
+    color: green;
+}
+.text{
+color: red !important;
+font-family: odina;
+}
+/* 1-orinda important
+2-orinda id
+3-orinda child with parents */
+.matn{
+    font-size: 1.5rem;
+    padding: 20px 15%;
+    line-height: 2;
+    word-spacing: 30px;
+    /* soz orasiga joy tawlaydi */
+    letter-spacing: 10px;
+    /* harf orasiga joy tawlaydi */
+    text-transform: capitalize;
+    /* capitalize-har bir soz bow harfini kattalawtiradi */
+    text-transform: uppercase;
+    /* uppercase-hamma harflarni kattalawtiradi */
+    text-transform: lowercase;
+    /* lowercase-hamma harflarni kichraytiradi */
+    text-decoration: overline;
+    /* overline-tepasiga cizadi */
+    text-decoration: underline;
+    /* underline-tagiga cizadi */
+    text-decoration: line-through;
+    /* line-through- ustiga cizadi */
+    text-decoration: underline overline line-through;
+}
+.msg{
+    width: 200px;
+    padding: 20px;
+    border-radius: 15px 15px 15px 0;
+    background: rgb(177, 238, 177);
+    margin: 50px;
+    word-break: break-all;
+}

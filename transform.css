@@ -1,0 +1,60 @@
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: violet;
+    transition: .5s;
+    margin: 50px auto;
+    transform-origin:center;
+}
+.box:hover{
+    transform: translateX(50px);
+    /* x-gorizontal ongga agar -50px bersak chapga suradi */
+    transform: translateY(50px);
+    /* y-vertikal pastga -50px bersak tepaga suradi */
+    transform: translateX(50px) translateY(50px);
+transform: translate(50px, 70px);
+/* translate suriw un kk */
+transform: rotate(40deg);
+transform: rotateX(180deg);
+transform: rotateY(180deg);
+/* rotate-buriw un kk */
+transform: scaleX(2);
+transform: scaleY(2);
+transform: scale(2);
+/* scale hajmni kattalawtiriw un kk */
+transform: skewX(50deg);
+transform: skewY(50deg);
+/* skew- coziw un kk */
+transform: rotate(45deg);
+transform: perspective(100px) rotateY(-30deg);
+} 
+.text{
+    width: 300px;
+    height: 200px;
+    border: 2px solid red;
+    /* height default holatida auto boladi */
+    /* overflow: hidden; */
+    overflow: auto;
+}
+.photo{
+    width: 300px;
+    height: 300px;
+margin: auto;
+border: 5px solid red;
+overflow: hidden;
+}
+.photo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: .5s;
+}
+.photo:hover img{
+    transform: scale(1.2) rotate(20deg);
+}
